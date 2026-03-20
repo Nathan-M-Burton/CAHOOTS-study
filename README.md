@@ -1,7 +1,7 @@
 # Quantifying CAHOOTS: Mobile Crisis Response Program Diverts and Prevents Police Response
 
 Analysis code for evaluating the impact of CAHOOTS (Crisis Assistance Helping
-Out On The Streets) on police call-for-service demand in Eugene, Oregon. The
+Out On The Streets) on police call-for-service demand in Eugene, Oregon. This
 study quantifies three diversion metrics using computer-aided dispatch records:
 
 - **SDR (Substitution Diversion Rate):** Direct replacement of police responses
@@ -10,9 +10,9 @@ study quantifies three diversion metrics using computer-aided dispatch records:
 
 ## Authors
 
-- Nathan Burton — Department of Data Science, University of Oregon
-- Claire Herbert — Department of Sociology, University of Oregon
-- Rori Rohlfs — Department of Data Science & Institute for Ecology and Evolution, University of Oregon
+- Nathan Burton: Department of Data Science, University of Oregon
+- Claire Herbert: Department of Sociology, University of Oregon
+- Rori Rohlfs: Department of Data Science & Institute for Ecology and Evolution, University of Oregon
 
 ## Repository Structure
 
@@ -75,12 +75,12 @@ python scripts/04_supplementary_figures.py
 
 | Script | Terminal Output | Figures |
 |--------|----------------|---------|
-| `01_load_and_clean.py` | Dataset summary statistics | — |
+| `01_load_and_clean.py` | Dataset summary statistics | N/A |
 | `02_omd_analysis.py` | OMD rates by year, threshold sweep, pooled OM summary | `fig_threshold_sweep.pdf`, `fig_omd_annual.pdf`, `fig_pooled_vs_yearspecific.pdf`, `fig_om_heatmap.pdf`, `fig_treemap.pdf` |
 | `03_sdr_pdr_analysis.py` | DiD coefficients, significant call types | `fig_hourly_volume.pdf`, `fig_monthly_trends.pdf` |
 | `04_supplementary_figures.py` | Heterogeneity test results | `fig_S_composition.pdf` |
 
-## Figure–Manuscript Index
+## Manuscript Figure Index
 
 | Manuscript Figure | Generated File |
 |-------------------|---------------|
