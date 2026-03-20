@@ -1,4 +1,4 @@
-# Data (too large for git)
+# Data 
 *.csv
 data/raw/*.csv
 data/processed/
