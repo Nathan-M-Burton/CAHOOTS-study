@@ -1,0 +1,29 @@
+# Data (too large for git)
+*.csv
+data/raw/*.csv
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / tools
+.vscode/
+.idea/
+
+# Manuscript
+*.docx
